@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 云中行走
-subtitle: 'Know Yourself!'
-description: '人在甘肃，刚下飞机'
+title: Tiylor's Blog
+subtitle: 'when you know,you know.'
+description: ''
 keywords:
-author: 你猜
+author: 田月荣
 language: zh-CN
 timezone: ''
 
@@ -93,7 +93,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: apollo
+theme: maupassant
+archive_generator:
+    per_page: 0
+    yearly: false
+    monthly: false
+    daily: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
